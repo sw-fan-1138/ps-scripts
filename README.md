@@ -1,2 +1,2 @@
 # ps-scripts
-A collection of Powershell scripts I've written
+A collection of PowerShell scripts I've written
