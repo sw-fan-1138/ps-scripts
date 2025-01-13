@@ -3,7 +3,7 @@ A collection of PowerShell scripts I've written
 
 admin_reset_internet_connection.ps1 script resets DNS, IP lease, and Winsock.
 
-datetime_object.ps1 takes a date and time string and converts it to a datetime object
+datetime_object.ps1 script takes a date and time string and converts it to a datetime object
 
 get_usb_parent_output.ps1 script retrieves all connected USB drives' DeviceID and outputs them into a text file.
 Useful for getting a list to import into MS Defender's USB device allow list.
