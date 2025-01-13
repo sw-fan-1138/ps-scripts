@@ -1,4 +1,4 @@
-#This script runs traceroute on a specfied IP address, then outputd the number of hops taken
+#This script runs traceroute on a specfied IP address, then outputs the number of hops taken
 
 if (-not (Test-Path -LiteralPath "C:\Temp" -PathType Container))
 {
