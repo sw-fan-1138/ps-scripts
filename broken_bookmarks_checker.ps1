@@ -21,7 +21,7 @@ Get-ChildItem -LiteralPath $FilePath -Recurse -File "bookmarks.html" `
             }
             catch {
                 $Response = $PSItem.Exception.Response;
-                "$([int]$Response.StatusCode), $Value" >> .\broken_bookmarks.csv;
+                "$([int]$Response.StatusCode), $Value" >> $Env:OneDrive\Desktop\broken_bookmarks.csv;
             }
         };
 };
