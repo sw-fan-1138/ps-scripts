@@ -20,7 +20,7 @@ Function Get-FileName($initialDirectory)
  Out-Null
 
  $OpenFileDialog = New-Object System.Windows.Forms.OpenFileDialog
- $OpenFileDialog.initialDirectory = "c.\\"
+ $OpenFileDialog.initialDirectory = "C:\\"
  $OpenFileDialog.filter = "html files (*.html)|*.html|All files (*.*)|*.*";
  $OpenFileDialog.FilterIndex = 1;
  $OpenFileDialog.ShowDialog() | Out-Null
