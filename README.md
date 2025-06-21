@@ -1,5 +1,5 @@
 # ps-scripts
-This is a collection of PowerShell scripts I've written
+This is a collection of PowerShell scripts I've written.
 
 admin_reset_internet_connection.ps1 script resets DNS, IP lease, and Winsock.
 
