@@ -1,19 +1,19 @@
-# This PowerShell script resets DNS, IP lease and winsock.
+# This PowerShell script resets DNS, IP lease, and Winsock.
 
-# Clears DNS cache
+# Clear DNS cache
 Clear-DnsClientCache
 
-# Registers DNS names
+# Register DNS names
 Register-DnsClient
 
-# Releases IP Address Lease
+# Release IP address lease
 ipconfig /release
 
-# Renews IP Address Lease
+# Renew IP address lease
 ipconfig /renew
 
-#Resets Winsock
+# Reset Winsock
 netsh winsock reset
 
-#Asks user if to reboot or not
+# Ask user whether to reboot
 Restart-Computer -Confirm

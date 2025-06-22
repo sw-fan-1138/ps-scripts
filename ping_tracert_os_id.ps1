@@ -1,4 +1,4 @@
-#This script will run ping and traceroute on a specfied IP address, then output output possible operating systems
+# This script will run ping and traceroute on a specified IP address, then output possible operating systems.
 
 if (-not (Test-Path -LiteralPath "C:\Temp" -PathType Container))
 {
