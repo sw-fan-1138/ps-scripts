@@ -15,7 +15,6 @@ get_usb_parent_output.ps1 script retrieves all connected USB drives' DeviceIDs a
 link_tracker_trimmer.ps1 script monitors the clipboard for URLs and removes any query parameters (source trackers) from them.
 The regex lines and this script description were created with the help of AI.
 
-
 ping_tracert_os_id.ps1 script is an automated WIP of this process: https://gbhackers.com/operating-systems-can-be-detected-using-ping-command/
 
 saved_wifi_password.ps1 script helps you find the password for a saved Wi-Fi network.
