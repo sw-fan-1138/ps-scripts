@@ -1,4 +1,4 @@
-# This PowerShell script monitors the clipboard for URLs and removes any query parameters (source trackers) from them.
+# This PowerShell script monitors the clipboard for URLs and removes any UTM parameters from them.
 
 while ($true) {
 
